@@ -1,4 +1,4 @@
-public class IConnectionString
+public interface IConnectionString
 {
-    string ConnectionString;
+    public string ConnectionString { get; set; }
 }
