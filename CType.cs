@@ -1,8 +1,8 @@
-public abstract CType : IType
+public abstract class CType : IType
 {
-    public void Salvar()
+    public virtual void Save()
     {
-       new Service(this).Salvar();
+       new Service(this).Save();
     }
 
 }
