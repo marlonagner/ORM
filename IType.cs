@@ -1,5 +1,8 @@
+
 public interface IType : IConnectionString
 {
- public  int Id { get; set; }
+
+[Table(PrimaryKey = "Id")]
+ public virtual  int Id { get; set; }
 
 }

@@ -5,4 +5,14 @@ public abstract class CType : IType
        new Service(this).Save();
     }
 
+    public virtual void Destroy()
+    {
+       new Service(this).Destroy();
+    }
+
+    public virtual void Get()
+    {
+       new Service(this).Get();
+    }
+
 }
